@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: inherit;
+}
+
+/* division */
+.div {
+	border: 1px solid #000;
+}
+
+.square {
+  width: 100%;
+  background: #fff;
+  padding: 5px;
+}
+
+.contenedor {
+	width: 1200px;
+	height: auto;
+	margin: 40px auto;
+	display: flex;
+}
+
+.sidebar {
+	width: 25%;
+	background: #1e262d;
+}
+
+.sidebar .brand {
+	background: #222d33;
+	padding: 25px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.sidebar .menu {
+	display: flex;
+  justify-content: center;
+}
+
+.sidebar .menu ul li {
+  margin: 10px 0;
+}
+
+.sidebar .menu ul li a {
+	color: #fff;
+}
+
+.sidebar .menu ul li .fas {
+	color: #fff;
+  margin-right: 10px;
+}
+
+.sidebar .logout {
+  background: #222d33;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.sidebar .logout a {
+	color: #fff;
+}
+
+.main-content {
+	width: 75%;
+  padding: 15px;
+  background: #e7e8ea;
+}
+
+.main-content .toolbar {
+	width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.main-content .bottom-content {
+	display: flex;
+}
+
+.main-content .bottom-content .left-content {
+	width: 65%;
+  height: 550px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.graph1, .graph2 {
+  height: 28%;
+}
+
+.graph3 {
+  height: 38%;
+}
+
+.main-content .bottom-content  .right-content {
+	width: 35%;
+  height: 550px;
+  padding: 5px;
+}
+
+.graph {
+  height: 100%;
+}
